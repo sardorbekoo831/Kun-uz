@@ -1,0 +1,110 @@
+.content {
+  display: flex;
+  width: 995.998px;
+  height: 333px;
+  flex-shrink: 0;
+  background-color: #eff2f8;
+
+  &__left {
+    background: url(<path-to-image>), rgb(236, 224, 224) 50% / cover no-repeat;
+    width: 503.51px;
+    height: 333px;
+    flex-shrink: 0;
+  }
+
+  &__center {
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+
+  &__img {
+    width: 503.51px;
+    height: 333px;
+    flex-shrink: 0;
+  }
+
+  &__logo {
+    width: 13.527px;
+    height: 15px;
+    flex-shrink: 0;
+    opacity: 0.5;
+    transform: translateY(5px);
+  }
+
+  &__time {
+    opacity: 0.5;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transform: translateY(-25px);
+    width: 97.195px;
+    margin-left: 20px;
+  }
+
+  &__center--head {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px; /* 131.818% */
+    width: 441.886px;
+  }
+
+  &__center--text {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 185.714% */
+    width: 441.886px;
+  }
+
+  &__right {
+    margin-left: 50px;
+  }
+
+  &__right--logo {
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+    fill: rgba(255, 255, 255, 0);
+    stroke-width: 4px;
+    stroke: #17206a;
+  }
+
+  &__right--head {
+    margin-left: 15px;
+    transform: translateY(-37px);
+    margin-left: 18px;
+    width: 150px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  &__right--text {
+    transform: translateY(-35px);
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px; /* 150% */
+    width: 319px;
+  }
+
+  &__right--hr {
+    width: 319px;
+    height: 1px;
+    background-color: #cecece;
+    transform: translateY(-35px);
+  }
+}

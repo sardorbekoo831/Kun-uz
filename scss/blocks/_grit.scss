@@ -1,0 +1,10 @@
+.grit {
+  transform: translateY(-265px);
+
+  &__img {
+    width: 1336px;
+    height: 140px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  }
+}

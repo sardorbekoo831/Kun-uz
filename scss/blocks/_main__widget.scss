@@ -1,0 +1,38 @@
+.main__widget {
+  width: 1920px;
+  background-color: #f0f0f0;
+  flex-shrink: 0;
+  text-align: center;
+  margin-left: -292px;
+}
+
+.main__widget--list {
+  display: flex;
+  margin-top: 25px;
+  margin-left: 20px;
+  list-style: none;
+}
+
+.main__widget--list--head {
+  margin-left: 10px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.main__widget--list--box {
+  margin-top: 20px;
+}
+
+.main__widget--list--link {
+  color: #17206a;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 1700px;
+}

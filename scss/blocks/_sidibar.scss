@@ -1,0 +1,81 @@
+.sidibar {
+  width: 1920px;
+  height: 483px;
+  flex-shrink: 0;
+  background-color: #f0f0f0;
+
+  &__item {
+    display: flex;
+  }
+
+  &__logo {
+    margin: 30px 50px;
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+    fill: rgba(255, 255, 255, 0);
+    stroke-width: 4px;
+    stroke: #17206a;
+  }
+
+  &__head {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  &__link {
+    margin-top: 30px;
+    margin-left: 1100px;
+    text-decoration: none;
+  }
+
+  &__list {
+    margin-left: 50px;
+    width: 298.937px;
+    height: 341px;
+    flex-shrink: 0;
+    background-color: #fff;
+  }
+
+  &__grit {
+    display: flex;
+  }
+
+  &__img {
+    width: 263.827px;
+    height: 165px;
+    flex-shrink: 0;
+    background-color: #17206a;
+    transform: translateY(-25px);
+    border-right: 5px solid #17206a;
+    border-bottom: 5px solid #17206a;
+  }
+
+  &__text {
+    color: #e3e3e3;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transform: rotate(-90deg);
+    margin-top: -75px;
+    margin-left: 255px;
+  }
+
+  &__list--head {
+    margin-top: 70px;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px; /* 143.75% */
+    width: 251.789px;
+  }
+}

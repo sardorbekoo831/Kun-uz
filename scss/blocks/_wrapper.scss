@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  width: 995.998px;
+  height: 333px;
+  margin-top: 20px;
+
+  &__img {
+    width: 175px;
+    height: 113px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  }
+
+  &__right {
+    margin-left: 10px;
+  }
+
+  &__text {
+    width: 268px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+  }
+
+  &__rigt {
+    margin-left: 80px;
+  }
+
+  &__wrapp {
+    display: flex;
+    transform: translateY(-125px);
+  }
+}

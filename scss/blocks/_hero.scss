@@ -1,0 +1,53 @@
+.hero {
+  display: flex;
+  height: 43px;
+  width: 1345px;
+  flex-shrink: 0;
+  background-color: #f0f0f0;
+  margin-bottom: 20px;
+
+  &__list {
+    @include list();
+    transform: translateY(10px);
+  }
+
+  &__list--item {
+    margin-left: 26px;
+  }
+
+  &__item--link {
+    text-decoration: none;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 71px;
+    height: 15px;
+    flex-shrink: 0;
+  }
+
+  &__img {
+    transform: translateY(-9px);
+  }
+
+  &__text {
+    width: 86px;
+    height: 43px;
+    flex-shrink: 0;
+    margin-left: -85px;
+    margin-top: 12px;
+    transform: translateY(-9px);
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+
+  &__hr {
+    margin-left: 12px;
+    transform: translateY(-2px);
+    width: 1px;
+    height: 12px;
+    background: #585858;
+  }
+}

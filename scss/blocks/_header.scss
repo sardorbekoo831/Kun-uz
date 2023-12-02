@@ -1,0 +1,46 @@
+@import "../mixinis/mixin.scss";
+
+.header {
+  margin-top: 50px;
+  display: flex;
+  height: 54px;
+  flex-shrink: 0;
+
+  &__logo {
+    width: 75px;
+    height: 30px;
+    flex-shrink: 0;
+  }
+
+  &__list {
+    @include list();
+  }
+
+  &__list--item {
+    margin-left: 40px;
+  }
+
+  &__item--link {
+    text-decoration: none;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  &__item--link:hover {
+    color: red;
+  }
+
+  &__select {
+    margin-left: 145px;
+    text-align: center;
+    width: 150px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: #e7e7e7;
+  }
+}

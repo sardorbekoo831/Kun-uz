@@ -1,0 +1,40 @@
+.picture {
+  &__img {
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+    fill: rgba(255, 255, 255, 0);
+    stroke-width: 4px;
+    stroke: #17206a;
+  }
+
+  &__head {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  &__img--head {
+    display: flex;
+  }
+
+  &__left {
+    width: 658px;
+    height: 442px;
+    flex-shrink: 0;
+    background-color: #f0f0f0;
+  }
+
+  &__left--img {
+    width: 603px;
+    height: 371px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  }
+
+  &__left--head {
+  }
+}

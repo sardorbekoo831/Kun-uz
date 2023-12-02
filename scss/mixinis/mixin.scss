@@ -1,0 +1,20 @@
+@mixin center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin link {
+  text-decoration: none;
+  color: #fff;
+}
+
+@mixin wh {
+}
